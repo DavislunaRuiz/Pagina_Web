@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 0%);
+}
+main {
+    margin: auto;
+    width: 85%;
+}
+
+header {
+    background-color:#F2A3B8;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    
+}
+.logo{
+    width: 100%;
+    height: 150px;
+
+}
+nav {
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos equitativamente */
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none ;
+    color: #fff;
+}
+
+li:hover{
+  transition: 250ms;
+  background-color: hwb(256 46% 10%);
+}
+
+section {
+    padding: 10px;
+    margin: 10px;
+    background-color: #F2A3B8;
+    border-radius: 5px;
+}
+.Menú{  
+    width: 97%;
+    background-color: #F2A3B8;
+    display: flex;
+}
+.caja4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+} 
+    .top{
+        width: 100%;
+        background-color: #fff;
+    }
+
+.item {
+    width: 300px; /* Ajusta el tamaño según sea necesario */
+    text-align: center;
+    margin: 10px;
+    background-color: #F2A3B8; /* Color de fondo de la caja */
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.item img {
+    width: 100%; /* Asegura que la imagen ocupe el ancho de la caja */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+.item:hover {
+    transform: scale(1.05); /* Aumenta el tamaño ligeramente al pasar el mouse */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Aumenta la sombra al pasar el mouse */
+}
+    .Menú1{
+        width: 65%;
+        padding-top: 50px;
+    }
+   
+    .todos{
+        font-family: Arial, sans-serif;
+     
+        float: right;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        margin: 0;
+        background-color: hsl(27, 83%, 50%);}
+    
+    .imagen{
+        width: 200px;
+        height: 200px;
+    } 
+    .toppings {
+        width: 25%; /* Ajusta el ancho según sea necesario */
+        background-color: #f097c8; /* Color de fondo para la sección de toppings */
+        padding: 10px; /* Espaciado interno */
+        border-radius: 5px; /* Bordes redondeados */
+        float: right; /* Permite que la sección flote a la izquierda */
+        margin-right: 20px; /* Espacio a la derecha */
+    }
+    
+    .jaleas {
+        width: 25%;
+        clear: both; /* Asegura que la sección de jaleas comience debajo de los elementos flotantes */
+        background-color: #f097c8; /* Color de fondo para la sección de jaleas */
+        padding: 10px; /* Espaciado interno */
+        border-radius: 5px; /* Bordes redondeados */
+        float: right;
+        margin-top: 15px;
+        margin-right: 20px; /* Espacio entre toppings y jaleas */
+    }
+    
+    .jaleas .top {
+        margin-bottom: 10px; /* Espacio entre el título y la lista de jaleas */
+    }
+    
+    .toppings ol, .jaleas ol {
+        list-style-type: none; /* Quita los números de la lista ordenada */
+        padding: 0; /* Elimina el padding por defecto */
+        margin: 0; /* Elimina el margen por defecto */
+    }
+.contacto {
+        text-align: center;
+       display: block;
+       text-align: justify;
+       background-color: #F2A3B8;
+    
+    }
+.container {
+        max-width: 400px;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    label {
+        display: block;
+        margin: 10px 0 5px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50; /* Color del botón */
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #45a049; /* Color del botón al pasar el mouse */
+    }
+
+
+footer {
+   
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    
+}
